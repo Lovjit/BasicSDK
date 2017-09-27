@@ -7,7 +7,7 @@ import com.hermease.camais.client.response.tree.FetchAssetResponse;
 
 public class FetchAssetByTypeAndIdService implements FetchContentByTypeAndIdIntegration{
 	
-	public FetchAssetResponse fetchContent(FetchAssetRequestByTypeAndId fetchAssetRequest) {
+	public FetchAssetResponse fetchContent(FetchAssetRequestByTypeAndId input) {
 		/**
 		 * Provide your implementation here
 		 */
